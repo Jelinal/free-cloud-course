@@ -39,8 +39,8 @@ const SignUpAws = () => {
   };
 
   return (
-    <div>
-        <NavbarAWS/>
+    // <div>
+    //     <NavbarAWS/>
     <div className="flex items-center justify-center min-h-screen bg-blue-100">
       <form
         onSubmit={handleSubmit}
@@ -109,8 +109,8 @@ const SignUpAws = () => {
         </p>
       </form>
     </div>
-    <Footer/>
-    </div>
+    // <Footer/>
+    // </div>
   );
 };
 

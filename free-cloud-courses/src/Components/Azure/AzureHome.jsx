@@ -1,17 +1,20 @@
 import React from 'react'
 import NavbarAzu from '../Nav/NavbarAzu'
 import Footer from '../Nav/Footer'
+import AzureHero from './AzureHero';
+import AzureFeatureSection from './AzureFeatureSection';
+import AzureCards from './AzureCards';
 
 const AzureHome = () => {
   return (
     <div>
       <NavbarAzu/>
-    <div>
-      Welcome to Azure Training Page 🚀
+          <AzureHero />
+          <AzureFeatureSection />
+          <AzureCards />
+      <Footer/>
     </div>
-    <Footer/>
-    </div>
-  )
+  );
 }
 
 export default AzureHome

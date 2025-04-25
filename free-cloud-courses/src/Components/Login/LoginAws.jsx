@@ -16,8 +16,8 @@ const LoginAws = () => {
     };
 
     return (
-        <div>
-                <NavbarAWS />
+        // <div>
+        //         <NavbarAWS />
         <div className="flex items-center justify-center flex-grow pt-18 pb-20 bg-blue-100">
             <form
                 onSubmit={handleLogin}
@@ -55,13 +55,13 @@ const LoginAws = () => {
                 <hr className="my-4 border-gray-300" />
 
                 <p className="mt-4 text-sm text-center">
-                    Don't have an account? <Link to='/awshome' className="w-full bg-yellow-600 text-black font-bold px-3 py-2 rounded-md hover:bg-yellow-700 transition">Sign up</Link>
+                    Don't have an account? <span className="w-full bg-yellow-600 text-black font-bold px-3 py-2 rounded-md hover:bg-yellow-700 transition">Sign up</span>
                 </p>
 
             </form>
         </div>
-        <Footer/>
-        </div>
+        // <Footer/>
+        // </div>
     );
 };
 

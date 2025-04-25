@@ -1,13 +1,14 @@
 import React from 'react'
 import NavbarAWS from '../Nav/NavbarAWS'
 import Footer from '../Nav/Footer'
+import AwsIntro from './AwsIntro'
 
 const AwsHome = () => {
   return (
     <div>
       <NavbarAWS/>
     <div>
-      Welcome to AWS Training Page 🚀
+      <AwsIntro />
     </div>
     <Footer/>
     </div>
